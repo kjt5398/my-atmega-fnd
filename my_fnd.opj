@@ -1,0 +1,100 @@
+(ExpressProject "my_fnd"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\my-fnd.olb"
+        (Type "Schematic Library"))
+      (File
+         "C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\capture\library\my-atmega32.OLB"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\my_fnd.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (my-atmega2
+      (FullPartName "my-atmega2.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\MY-ATMEGA32.OLB")
+      (DeviceIndex "0"))
+    (my-atmega32
+      (FullPartName "my-atmega32.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\MY-ATMEGA32.OLB")
+      (DeviceIndex "0"))
+    (my-fnd
+      (FullPartName "my-fnd.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_FND\MY-FND.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\users\user\desktop\work\my_FND\my_fnd.dsn")
+      (Path "Design Resources" "C:\users\user\desktop\work\my_FND\my_fnd.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "C:\users\user\desktop\work\my_FND\my_fnd.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\users\user\desktop\work\my_FND\my-fnd.olb")
+      (Path "Design Resources" "Library"
+         "C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\capture\library\my-atmega32.OLB"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 513"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 225 1501 225 776")
+        (PackageScroll "0 160")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "1572 635")
+        (Zoom "359"))
+      (Path
+         "C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\capture\library\my-atmega32.OLB")
+      (Package "atmega kk"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 250 1526 250 801")
+        (PackageScroll "0 57")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "1052 425")
+        (Zoom "274"))
+      (Path
+         "C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\capture\library\my-atmega32.OLB")
+      (Package "my-atmega2560"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 275 1551 275 826")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "228 0")
+        (Zoom "120"))
+      (Path
+         "C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\capture\library\my-atmega32.OLB")
+      (Package "xilinx"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1669 100 651")
+        (Scroll "-236 0")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\WORK\MY_FND\MY_FND.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "user"))
